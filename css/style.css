@@ -1,19 +1,23 @@
 @font-face {
-  font-family: "Ubuntu Regular";
-  src: url('../fonts/ubuntu-regular-webfont.woff') format("woff"),
-  url('../fonts/ubuntu-regular-webfont.woff2') format("woff2");
-  font-weight: normal;
-  font-style: normal;
+	font-family: "Ubuntu Regular";
+	src: url('../fonts/ubuntu-regular-webfont.woff') format("woff"),
+		url('../fonts/ubuntu-regular-webfont.woff2') format("woff2");
+	font-weight: normal;
+	font-style: normal;
 }
 
-.header {
-
+:root {
+	--body-background: #ccc;
 }
 
-.main {
-
+body {
+	background-color: var(--body-background);
 }
 
-.footer {
-  
-}
+.header {}
+
+.main {}
+
+.footer {}
+
+@media (min-width: 768px) {}
