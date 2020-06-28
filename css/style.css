@@ -14,6 +14,15 @@ body {
 	background-color: var(--body-background);
 }
 
+/* Мы определяем родителю значение свойства через переменную(кастомные свойства), если переменная есть - она наследуется, если переменной нет - используется значение свойства, указанное, через запятую(по умолчанию). */
+/* .parent_continer {
+	--some_var: pink;
+}
+
+.child_container {
+	background-color: var(--some_var, lightgreen);
+} */
+
 .header {}
 
 .main {}
